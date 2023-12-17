@@ -1,0 +1,225 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&display=swap');
+
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:ital,wght@0,600;1,400&family=REM:wght@500&display=swap');
+
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items:center;
+  background: transparent; 
+  position: fixed; 
+  width: 100%;
+  z-index: 1000; /* Assure que la barre de navigation est au-dessus du contenu */
+
+}
+/*logo*/
+nav h1{
+  color:rgb(29, 28, 28);
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  }
+
+/*barre de navigation*/
+nav .navbar{
+ margin-left: 950px;
+ margin-top: 10px;
+ font-family: 'Hammersmith One', sans-serif;;
+ 
+}
+ 
+nav .navbar a{
+  text-decoration: none;
+  color:rgb(14, 13, 13);
+  margin-right: 10px; 
+  color: #3b3838  
+}
+
+.background-image{
+  background-image: url("https://img.freepik.com/photos-gratuite/mains-ingenieur-travaillant-modele-concept-construction-outils-ingenierie-effet-filtre-retro-tonalite-tension-mise-au-point-douce-mise-au-point-selective_1418-477.jpg?w=1060&t=st=1702753869~exp=1702754469~hmac=348baf832740f07adaa6c2ab8cc8c4b4d8dab4b308602c6d26b442f7e37d98b8");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/*section about us*/
+.background-image1{
+  background-image: url("https://img.freepik.com/photos-gratuite/arrangement-plat-differents-objets-architecturaux-espace-copie_23-2148540077.jpg?w=1380&t=st=1702681548~exp=1702682148~hmac=179de81855e624ef267ed1a268669c8ebcff0fa995fbbe4f2661dfe40c1f87d9");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.intro{
+padding-top: 400px;
+}
+
+.intro h1{
+font-size: xx-large; 
+color: #5b5555;
+ padding-left: 50px;
+ font-family: 'Hammersmith One', sans-serif;
+}
+.intro1 h1{
+  color: #5b5555;
+  padding-top: 80px;
+
+}
+.intro1 h4{color: #5b5555;}
+.intro1{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.contenu1{
+  background-color: rgb(241, 241, 239)}
+
+.why{
+  height: 100%;
+  background-color:  rgb(241, 241, 239);
+
+}
+.why h1 {color: #5b5555;
+  text-align: center;
+}
+.why h4{  text-align: center;
+color: #6f6f6f;}
+.parts{
+display: flex;
+gap: 1cm;
+padding-left: 550px;
+color: #6f6f6f;
+
+}
+
+
+
+
+
+/*section projects*/
+
+.image {
+  display: flex;
+  gap: 0.4cm;
+  width: 460px;
+}
+.projet{
+  padding-top: 100px;
+margin-top: 200px;}
+.projet h1{text-align: center;
+ color: #5b5555; }
+
+.image img {
+  width: 80%; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/*section TEAM WORK*/
+.team {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(241, 241, 239);
+  margin-top: 300px;
+  padding-top: 100px;
+}
+.team h1{ font-family: 'Hammersmith One', sans-serif;}
+
+.teamwork {
+  padding: 50px 0;
+ 
+}
+
+.member {
+  margin-top: 20px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/*section contact*/
+.contact{padding-top: 50px;}
+.transparent-form {
+  width: 300px;
+  margin: 50px ;
+  padding: 100px;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+ 
+}
+
+.transparent-form label,
+.transparent-form input,
+.transparent-form button {
+  display: block;
+  margin: 10px 0;
+}
+
+.transparent-form input,
+.transparent-form button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.transparent-form button {
+  background-color: #e2bf4a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.background-image1{margin-top: 150px;}
+/*footer*/
+footer{
+ 
+  border-top: 5px solid #6f6f6f;
+  background-color: rgb(113, 112, 112);
+  color: #fff;
+  padding: 30px 100px;;
+}
+footer h1{
+  font-family: 'Playfair Display', serif;
+  border-bottom: 1px solid white;
+  width: 20%;
+  padding-bottom: 5px;
+}
+
+footer .services{
+  margin-top: -10px;
+  display:flex;
+  flex-wrap:wrap;
+}
+footer .services .service{
+  margin-right: 30px;
+}
+footer .services .service p{
+  max-width: 300px;
+}
+footer #contact{
+  color: rgb(181, 181, 181);
+}
+
+
+
+
+
+
+
+
+
+
